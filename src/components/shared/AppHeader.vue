@@ -1,16 +1,13 @@
 <script>
 import ThemeSwitcher from '../ThemeSwitcher';
-import HireMeModal from '../HireMeModal.vue';
+
 import feather from 'feather-icons';
 import AppHeaderLinks from './AppHeaderLinks.vue';
-import Button from '../reusable/Button.vue';
 
 export default {
 	components: {
 		ThemeSwitcher,
-		HireMeModal,
 		AppHeaderLinks,
-		Button,
 	},
 	data() {
 		return {
@@ -84,19 +81,9 @@ export default {
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
 				<div>
-					<router-link to="/"
-						><img
-							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
-							class="w-36"
-							alt="Dark Logo"
-						/>
-						<img
-							v-else
-							src="@/assets/images/logo-light.svg"
-							class="w-36"
-							alt="Light Logo"
-						/>
+					<router-link to="/">
+						<p v-if="theme === 'light'" class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300">Abib</p>
+						<p v-else class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300">Abib</p>
 					</router-link>
 				</div>
 
@@ -143,15 +130,6 @@ export default {
 			<div
 				class="hidden sm:flex justify-between items-center flex-col md:flex-row"
 			>
-				<!-- Hire me button -->
-				<div class="hidden md:block">
-					<Button
-						title="Hire Me"
-						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
-						@click="showModal()"
-						aria-label="Hire Me Button"
-					/>
-				</div>
 
 				<!-- Theme switcher large screen -->
 				<theme-switcher
@@ -161,14 +139,6 @@ export default {
 				/>
 			</div>
 		</div>
-
-		<!-- Hire me modal -->
-		<HireMeModal
-			:showModal="showModal"
-			:modal="modal"
-			:categories="categories"
-			aria-modal="Hire Me Modal"
-		/>
 	</nav>
 </template>
 
