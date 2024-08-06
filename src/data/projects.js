@@ -1,42 +1,24 @@
-// Projects data.
-// Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
-
 const projects = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'News Homepage',
 		category: 'Web Application',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/News homepage.png'),
+		url: 'https://abibguardian50.github.io/news-homepage-main/'
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-2.jpg'),
+		title: 'Elgeka Website (On Progress)',
+		category: 'Web Application',
+		img: require('@/assets/images/Halaman Utama Sahabat CGI.png'),
+		url: 'https://sahabatcgi.netlify.app/'
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-1.jpg'),
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-2.jpg'),
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-1.jpg'),
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
+		title: 'SunnySide Landing Page',
 		category: 'Web Application',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/Sunnyside agency landing page.png'),
+		url: 'https://abibguardian50.github.io/SunnySide-landingPage/'
 	},
 ];
 
