@@ -6,12 +6,7 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-				},
-				{
-					id: 2,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"Hi, You can call me Abib, has experience in front-end development using Vue.js and software quality assurance with automation tools like Katalon. Although my experience is still growing, I'm eager to learn new things and always strive to give my best in every project,I enjoy working in a team and love the challenge of finding the best solutions. My education and experience shaped required skills in front-end development and software quality assurance.If you're looking for someone who's enthusiastic and dedicated, feel free to reach out",
 				},
 			],
 		};
@@ -24,7 +19,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/profile.jpg"
 				class="rounded-xl w-96"
 				alt=""
 			/>
