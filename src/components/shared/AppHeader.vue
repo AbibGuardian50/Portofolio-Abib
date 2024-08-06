@@ -14,28 +14,6 @@ export default {
 			isOpen: false,
 			theme: '',
 			modal: false,
-			categories: [
-				{
-					id: 1,
-					value: 'web',
-					name: 'Web Application',
-				},
-				{
-					id: 2,
-					value: 'mobile',
-					name: 'Mobile Application',
-				},
-				{
-					id: 3,
-					value: 'ui-ux',
-					name: 'UI/UX Design',
-				},
-				{
-					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
-				},
-			],
 		};
 	},
 
@@ -82,8 +60,8 @@ export default {
 				<!-- Header logos -->
 				<div>
 					<router-link to="/">
-						<p v-if="theme === 'light'" class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300">Abib</p>
-						<p v-else class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300">Abib</p>
+						<p v-if="theme === 'light'" class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300"><img class="w-[48px] h-[48px]" src="@/assets/images/icon.png"></p>
+						<p v-else class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300"><img class="w-[48px] h-[48px]" src="@/assets/images/icon-dark.png"></p>
 					</router-link>
 				</div>
 
